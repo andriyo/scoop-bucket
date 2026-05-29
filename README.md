@@ -7,6 +7,12 @@ scoop bucket add andriyo https://github.com/andriyo/scoop-bucket
 scoop install shadowdroid
 ```
 
+ShadowDroid requires Android Platform Tools (`adb`) on PATH:
+
+```powershell
+scoop install adb
+```
+
 Upgrade later:
 
 ```powershell
